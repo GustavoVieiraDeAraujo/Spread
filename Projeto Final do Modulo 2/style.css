@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+figure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    width: 268px;
+    height: 38px;
+    margin-bottom: 10px;
+}
+
+.nome-instagram{
+    height: 51px;
+    width: 175px;
+}
+
+.div-login{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    width: 25vw;
+}
+
+.logo-facebook{
+    height: 16px;
+    width: 16px;
+    margin-right: 5px;
+}
+
+.login-facebook{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #385185;
+    margin-bottom: 15px;
+}
+
+.esqueceu-senha{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: #385185;
+}
+
+.cadastre-se{
+    color: blue;
+    text-decoration: none;
+}
+
+.appstore{
+    height: 136px;
+    height: 40px;
+}
+
+.onde-baixar{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    width: 25vw;
+}
+
+.baixar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25vw;
+}
+.sem-conta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25vw;
+    height: 63px;
+}
+.borda{
+    border: 1px solid rgb(228, 228, 228);
+}
+
+.titulo-instagram{
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 20px;
+    border: 1px solid white;
+    background-color: rgb(178, 223, 252);
+    width: 268px;
+    height: 38px;
+    margin-bottom: 15px;
+}
+
+.linha{
+    display: flex;
+    height: 5px;
+    border-top: 5px solid black;
+}
+
+#ou{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: rgb(219, 219, 219);
+    margin-bottom: 35px;
+}
+#ou::before{
+    content: "";
+    width: 110px;
+    height: 2px;
+    position: relative;
+    background-color:rgb(219, 219, 219);
+    margin-right: 10px;
+}
+#ou::after {
+    content: "";
+    width: 110px;
+    height: 2px;
+    position: relative;
+    background-color: rgb(219, 219, 219);
+    margin-left: 10px;
+}
+
+.final{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 25vw;
+}
